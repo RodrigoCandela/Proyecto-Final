@@ -1,0 +1,39 @@
+<div class="container">
+    <h3>Choose your guide!</h3>
+    <div class="row">
+        <div *ngFor="let guider of guiderList" class="col-lg-4 col-md-6 col-sm-6 col-12 container">
+            <a routerLink="/guider-profile" routerLinkActive="active">
+                <div class="card">
+                    <div class="img" [ngStyle]="{'background-image' : 'url('+guider.picture+')'}"></div>
+                    <div class="data">
+                        <div class="name">
+                            <h4>{{guider.name}}</h4>
+                        </div>
+                        <div class="languages">
+                            <h5>Languages: </h5> {{guider.guiderInfo.languages}}
+                        </div>
+                        <div class="main-topics">
+                            <h5>Main Topics: </h5>{{guider.mainTopics}}
+                        </div>
+                        <div class="tours">
+                            <h5>Tours: </h5>{{guider.tours}}
+
+                        </div>
+                        <div class="rating">
+                            <img *ngIf="guider.guiderInfo.rating == 1" src="../../../assets/ratingStars/rating_stars_1.png" alt="">
+                            <img *ngIf="guider.guiderInfo.rating == 2" src="../../../assets/ratingStars/rating_stars_2.png" alt="">
+                            <img *ngIf="guider.guiderInfo.rating == 3" src="../../../assets/ratingStars/rating_stars_3.png" alt="">
+                            <img *ngIf="guider.guiderInfo.rating == 4" src="../../../assets/ratingStars/rating_stars_4.png" alt="">
+                            <img *ngIf="guider.guiderInfo.rating == 5" src="../../../assets/ratingStars/rating_stars_5.png" alt=""> ({{guider.votesNumber}})
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<router-outlet></router-outlet>
+

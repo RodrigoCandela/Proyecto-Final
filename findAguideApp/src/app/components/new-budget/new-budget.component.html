@@ -1,0 +1,232 @@
+<div class="row sup">
+    <div class="menu-res d-lg-none d-md-none d-sm-block d-block col-sm-12 col-12">
+        <app-nav-bar-sup></app-nav-bar-sup>
+    </div>
+</div>
+<div class="row">
+    <div class="d-lg-block d-md-block d-sm-none d-none col-sm-6 col-6 profile">
+        <div class="body">
+            <h4>My Tours</h4>
+            <hr>
+            <div class="card tour">
+                <img src="../../../assets/images/month-destinations/london.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">London</h5>
+                    <p class="card-text">Basic tour via the main building of the capital.</p>
+                    <span>Total Amount: </span><strong id="tour1">100,00$</strong>
+                    <button (click)="tour1=!tour1">+</button>
+                </div>
+            </div>
+            <div class="card tour">
+                <img src="../../../assets/images/month-destinations/ibiza.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ibiza</h5>
+                    <p class="card-text">Basic tour via the main building of the capital.</p>
+                    <span>Total Amount: </span><strong id="tour2">100,00$</strong>
+                    <button (click)="tour2=!tour2">+</button>
+                </div>
+            </div>
+            <div class="card tour">
+                <img src="../../../assets/images/month-destinations/togo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Togo</h5>
+                    <p class="card-text">Basic tour via the main building of the capital.</p>
+                    <span>Total Amount: </span><strong id="tour3">100,00$</strong>
+                    <button (click)="tour3=!tour3">+</button>
+                </div>
+            </div>
+            <div class="card tour">
+                <img src="../../../assets/images/month-destinations/philipines.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Filipinas</h5>
+                    <p class="card-text">Basic tour via the main building of the capital.</p>
+                    <span>Total Amount: </span><strong id="tour4">100,00$</strong>
+                    <button (click)="tour4=!tour4">+</button>
+                </div>
+            </div>
+            <h4>My Experiences</h4>
+            <hr>
+            <div class="service list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Scuba Diving</h5>
+                </div>
+                <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magnam cumque tempore. Magnam laudantium saepe officiis porro quasi deserunt quidem voluptatem iusto cum, consequuntur ad, reiciendis ullam quaerat error molestias!</p>
+                <span>Total Amount: </span><strong id="xp1">100,00$</strong>
+                <button (click)="xp1=!xp1">+</button>
+            </div>
+            <div class="service list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Climbing</h5>
+                </div>
+                <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt nemo fugiat nihil ipsam enim rem eligendi deleniti officia vitae, sint, quos veniam laboriosam a, cumque aliquam autem quisquam nisi animi!</p>
+                <span>Total Amount: </span><strong id="xp2">100,00$</strong>
+                <button (click)="xp2=!xp2">+</button>
+            </div>
+            <div class="service list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Badminton</h5>
+                </div>
+                <p class="mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dolorum impedit vero maxime et tempora modi soluta, quam, voluptatibus officiis quia eligendi repudiandae magnam asperiores reiciendis debitis recusandae architecto provident.</p>
+                <span>Total Amount: </span><strong id="xp3">100,00$</strong>
+                <button (click)="xp3=!xp3">+</button>
+            </div>
+            <div class="service list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Zip line</h5>
+                </div>
+                <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aut iure tenetur harum voluptates exercitationem recusandae cupiditate praesentium at asperiores dolor et deleniti, aperiam quam, voluptate provident consequuntur animi minus.</p>
+                <span>Total Amount: </span><strong id="xp4">100,00$</strong>
+                <button (click)="xp4=!xp4">+</button>
+            </div>
+        </div>
+    </div>
+    <div class="budget col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="body">
+            <div class="row data">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <h3>Guider Details</h3>
+                    <span>Name: </span>Example<br>
+                    <span>Id: </span>38974598<br>
+                    <hr>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <h3>Client Details</h3>
+                    <span>Name: </span>Example<br>
+                    <span>Id: </span>38974598<br>
+                    <hr>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <h3>Tour Dates</h3>
+                    <span>From:</span>
+                    <input type="date"> <br>
+                    <span>Until:</span>
+                    <input type="date" style="margin-left: 14px"> <br>
+                    <hr>
+                </div>
+                <div class="d-lg-none d-md-none d-sm-block d-block col-sm-12 col-12">
+                    <h3>Add Tours</h3>
+                    <select name="tours" id="tours">
+                        <option selected>Choose tours...</option>
+                        <option value="1">Tour 1</option>
+                        <option value="2">Tour 2</option>
+                        <option value="3">Tour 3</option>
+                    </select>
+                    <hr>
+                </div>
+                <div class="d-lg-block d-md-block d-sm-none d-none col-lg-12 col-md-12">
+                    <h3>Tours</h3>
+                    <div class="body">
+                        <div class="card tour" *ngIf="tour1">
+                            <img src="../../../assets/images/month-destinations/london.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">London</h5>
+                                <p class="card-text">Basic tour via the main building of the capital.</p>
+                                <span>Total Amount: </span><strong id="tAmount1">100,00$</strong>
+                                <button>+</button>
+                            </div>
+                        </div>
+                        <div class="card tour" *ngIf="tour2">
+                            <img src="../../../assets/images/month-destinations/ibiza.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ibiza</h5>
+                                <p class="card-text">Basic tour via the main building of the capital.</p>
+                                <span>Total Amount: </span><strong id="tAmount2">100,00$</strong>
+                                <button>+</button>
+                            </div>
+                        </div>
+                        <div class="card tour" *ngIf="tour3">
+                            <img src="../../../assets/images/month-destinations/togo.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Togo</h5>
+                                <p class="card-text">Basic tour via the main building of the capital.</p>
+                                <span>Total Amount: </span><strong id="tAmount3">100,00$</strong>
+                                <button>+</button>
+                            </div>
+                        </div>
+                        <div class="card tour" *ngIf="tour4">
+                            <img src="../../../assets/images/month-destinations/philipines.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Filipinas</h5>
+                                <p class="card-text">Basic tour via the main building of the capital.</p>
+                                <span>Total Amount: </span><strong id="tAmount4">100,00$</strong>
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="d-lg-none d-md-none d-sm-block d-block col-sm-12 col-12">
+                    <h3>Add Experiences</h3>
+                    <select name="tours" id="tours">
+                        <option selected>Choose experiences...</option>
+                        <option value="1">Experience 1</option>
+                        <option value="2">Experience 2</option>
+                        <option value="3">Experience 3</option>
+                    </select>
+                    <hr>
+                </div>
+                <div class="d-lg-block d-md-block d-sm-none d-none col-lg-12 col-md-12">
+                    <h3>Experiences</h3>
+                    <div class="body">
+                        <div class="service list-group-item list-group-item-action flex-column align-items-start" *ngIf="xp1">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Scuba Diving</h5>
+                            </div>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab culpa inventore beatae saepe rem dicta. Eum dolorum optio cumque deleniti nobis nihil tempore eveniet natus, iure itaque, esse vero aliquid.</p>
+                            <span>Total Amount: </span><strong id="xpAmount1">100,00$</strong>
+                            <button>+</button>
+                        </div>
+                        <div class="service list-group-item list-group-item-action flex-column align-items-start" *ngIf="xp2">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Climbing</h5>
+                            </div>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nihil quaerat vel sunt adipisci voluptas qui, nisi autem? Perspiciatis earum fugiat vero debitis necessitatibus veniam voluptatem natus, alias aspernatur repudiandae?</p>
+                            <span>Total Amount: </span><strong id="xpAmount2">100,00$</strong>
+                            <button>+</button>
+                        </div>
+                        <div class="service list-group-item list-group-item-action flex-column align-items-start" *ngIf="xp3">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Badmington</h5>
+                            </div>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae recusandae dolores praesentium quia eveniet nihil voluptas. Odit perspiciatis perferendis quae inventore ad pariatur, illo numquam neque adipisci quas distinctio assumenda?</p>
+                            <span>Total Amount: </span><strong id="xpAmount3">100,00$</strong>
+                            <button>+</button>
+                        </div>
+                        <div class="service list-group-item list-group-item-action flex-column align-items-start" *ngIf="xp4">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Zip line</h5>
+                            </div>
+                            <p class="mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos necessitatibus impedit doloribus molestias, saepe similique architecto, aliquid cupiditate in velit voluptas quaerat distinctio. Necessitatibus, in obcaecati! Ducimus libero corporis eaque?</p>
+                            <span>Total Amount: </span><strong id="xpAmount4">100,00$</strong>
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row amount">
+                    <p><span>Total amount is:</span><strong id="totalAmount">300,00$</strong></p>
+                </div>
+                <div class="row buttons">
+                    <div class="d-lg-block d-md-block d-sm-none d-none col-lg-6 col-md-6 col-sm-0 col-0">
+                        <button style="background-color: #FF1E42" routerLink="/messages"
+                            routerLinkActive="active">Cancel</button>
+                    </div>
+                    <div class="d-lg-block d-md-block d-sm-none d-none col-lg-6 col-md-6 col-sm-0 col-0">
+                        <button routerLink="/messages" routerLinkActive="active">Send</button>
+                    </div>
+                </div>
+                <div class="row buttons">
+                    <div class="d-lg-none d-md-none d-sm-block d-block col-sm-6 col-6">
+                        <button style="background-color: #FF1E42" routerLink="/chat2"
+                            routerLinkActive="active">Cancel</button>
+                    </div>
+                    <div class="d-lg-none d-md-none d-sm-block d-block col-sm-6 col-6">
+                        <button routerLink="/chat2" routerLinkActive="active">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

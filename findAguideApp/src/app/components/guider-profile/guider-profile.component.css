@@ -1,0 +1,153 @@
+div.body{
+    padding: 10px;
+}
+
+div.back{
+    margin: 0px 0 10px;
+}
+
+div.back button{
+    background-color: #FF1E42;
+    color: white;
+    width: 80px;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+}
+
+h5{
+    text-align: center;
+    font-size: 18pt;
+}
+
+li.list-group-item{
+    font-size: 14pt;
+    font-weight: bold;
+    color: #00AB8C;
+    text-align: center;
+}
+
+li.list-group-item span{
+    font-size: 12pt;
+}
+
+div.rating{
+    text-align: center;
+}
+
+div.rating img{
+    width: 30px;
+}
+
+li.list-group-item button{
+    background-color: #00AB8C;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+}
+
+h4{
+    margin-top: 25px;
+}
+
+hr{
+    margin-top: -5px;
+    border: 0.5px solid #00AB8C;
+}
+
+div.tour{
+    margin: 10px 0;
+}
+
+div.tour span{
+    color: #00AB8C;
+    font-weight: bold;
+}
+
+div.tour ul{
+    list-style: none;
+    margin-left: -20px;
+}
+
+div.service{
+    margin: 10px 0;
+    padding: 10px;
+}
+
+div.service span{
+    color: #00AB8C;
+    font-weight: bold;
+}
+
+#cp{
+    height: 275px;
+}
+
+@media (min-width: 700px){
+    div.back{
+        margin: 0px 0 10px;
+        text-align: right;
+    }
+
+    div.back button{
+        background-color: #FF1E42;
+        color: white;
+        width: 50%;
+        height: 50px;
+        font-weight: bold;
+        border: none;
+        border-radius: 25px;
+    }
+
+    div.card{
+        padding: 0;
+    }
+
+    hr{
+        width: 98%;
+        margin-left: 0;
+    }
+
+    div.tours, div.experience{
+        height: 800px;
+        overflow-y: scroll;
+    }
+
+    div.tour{
+        margin: 10px;
+    }
+
+    div.service{
+        width: 95%;
+        margin: 10px;
+    }
+
+    div.card-body h5{
+        text-align: left;
+    }
+
+    div.card-body p{
+        font-size: 10pt;
+    }
+
+    li.list-group-item{
+        text-align: left;
+        font-size: 10pt;
+    }
+
+    li.list-group-item span{
+        font-size: 10pt;
+    }
+
+    div.rating{
+        text-align: left;
+    }
+
+    div.rating img{
+        width: 20px;
+    }
+}
